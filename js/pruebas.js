@@ -5,7 +5,6 @@ function crearStringLargos(longitudString) {
     }
     return string;
 }
-console.assert(1 === 0, "1 es igual a 1");
 
 function probarValidarNombre() {
     console.assert(validarNombre("") === "Este campo debe tener al menos 1 caracter", "validarNombre no valido que el Nombre no sea un string vacío");
