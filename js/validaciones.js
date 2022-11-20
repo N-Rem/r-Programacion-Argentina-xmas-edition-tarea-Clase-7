@@ -46,7 +46,7 @@ function validarDescripcionRegalo(descripcionRegalo) {
         return "debes ingresar algo en la descripcion del regalo.";
     }
     if (descripcionRegalo.length > caracterMaximo) {
-        return "la carta no debe de tener mas de 211 caracteres";
+        return "la carta no debe de tener mas de 100 caracteres";
     }
     return "";
 }

@@ -23,7 +23,7 @@ function probarValidarComportamiento() {
 
 function probarValidarDescripcionRegalo() {
     console.assert(validarDescripcionRegalo("") === "debes ingresar algo en la descripcion del regalo.", "validarDescripcionRegalo no valido que no sea un String vacío");
-    console.assert(validarDescripcionRegalo(crearStringLargos(212)) === "la carta no debe de tener mas de 211 caracteres", "validarDescripcionRegalo no valido que no sea un String mayor a 211 caracteres")
+    console.assert(validarDescripcionRegalo(crearStringLargos(101)) === "la carta no debe de tener mas de 100 caracteres", "validarDescripcionRegalo no valido que no sea un String mayor a 100 caracteres");
 }
 
 function probarValidaciones (){
